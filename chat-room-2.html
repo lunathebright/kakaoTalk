@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KokoaTalk</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9e00e386e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="main chat-main">
+        <header class="chat-header">
+            <a href="index.html">
+                <i class="fas fa-times"></i>
+            </a>
+            <div class="chat-info">
+                <img src="images/lostark.jpg" alt="">
+                <div class="chat-info__info">
+                    <b>로아팟 [자바스크립트 길드]<span>(3)</span></b>
+                    <i class="fas fa-inbox"></i>
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+            <div class="chat-setting">
+                <i class="far fa-bell"></i>
+                <i class="fas fa-bars"></i>
+            </div>
+        </header>
+        <section class="contents chat-contents">
+            <section class="chat-contents__top">
+                <div class="timestamp">Monday, May 8, 2020</div>
+                <div class="my-chat-bubble chat-bubble">
+                    <div>
+                        <p>저 아브렐슈드 서버</p>
+                        <span>2:32 PM</span>
+                    </div>
+                </div>
+                <div class="friend-chat-bubble chat-bubble">
+                    <img src="images/hyosae.jpeg" alt="">
+                    <b>효재</b>
+                    <div>
+                        <p>ㅇㅋㅇㅋ</p>
+                        <span>2:33 PM</span>
+                    </div>
+                </div>
+                <div class="friend-chat-bubble chat-bubble" style="margin: 30px 0 0;">
+                    <img src="images/mijee.jpg" alt="">
+                    <b>미지</b>
+                    <div>
+                        <p>고양이 밥 주고 바로 갈게요~</p>
+                        <span>2:28 PM</span>
+                    </div>
+                </div>
+                <div class="friend-chat-bubble chat-bubble" style="margin: 30px 0 0;">
+                    <img src="images/hyosae.jpeg" alt="">
+                    <b>효재</b>
+                    <div>
+                        <p>지금 들감</p>
+                        <span>2:33 PM</span>
+                    </div>
+                </div>
+                <div class="timestamp">Monday, May 11, 2020</div>
+                <div class="friend-chat-bubble chat-bubble">
+                    <img src="images/mijee.jpg" alt="">
+                    <b>미지</b>
+                    <div>
+                        <p>오늘 저녁에 하나요?</p>
+                        <span>5:48 PM</span>
+                    </div>
+                </div>
+                <div class="my-chat-bubble chat-bubble">
+                    <div>
+                        <p>저번에 못 갔던 던전 돌까요</p>
+                        <span>5:52 PM</span>
+                    </div>
+                </div>
+                <div class="friend-chat-bubble chat-bubble">
+                    <img src="images/hyosae.jpeg" alt="">
+                    <b>효재</b>
+                    <div>
+                        <p>ㅇㅋㅇㅋ 밥 먹고 들감</p>
+                        <!-- <span>6:01 PM</span> -->
+                    </div>
+                </div>
+                <div class="friend-chat-bubble chat-bubble">
+                    <!-- <img src="images/hyosae.jpeg" alt=""> -->
+                    <!-- <b>효재</b> -->
+                    <div>
+                        <p>설거지해야됨ㅇㅇ 10분만 기달</p>
+                        <span>6:49 PM</span>
+                    </div>
+                </div>
+                <div class="friend-chat-bubble chat-bubble" style="margin: 30px 0 0;">
+                    <img src="images/mijee.jpg" alt="">
+                    <b>미지</b>
+                    <div>
+                        <p>넹 열음님이랑 근처 돌고 있을게요</p>
+                        <span>6:51 PM</span>
+                    </div>
+                </div>
+                <div class="my-chat-bubble chat-bubble">
+                    <div>
+                        <p>빨!! 리!!! 와!!! 던전 돌아야 됨 현기증 난다</p>
+                        <span>6:52 PM</span>
+                    </div>
+                </div>
+                <div class="timestamp">Monday, May 14, 2020</div>
+                <div class="my-chat-bubble chat-bubble">
+                    <div>
+                        <p>겜 고? 아브렐슈드에서 30분 이따 만나요</p>
+                        <span>10:19 AM</span>
+                    </div>
+                </div>
+            </section>
+            <section class="chat-contents__bottom">
+                <div class="typing-area__typing">
+                    <textarea placeholder="enter 키 또는 send 버튼을 누르면 내가 보낸 메세지, ctrl 키를 누르면 상대방이 보낸 메세지로 표시됩니다"></textarea>
+                    <input type="submit" value="send">
+                </div>
+                <div class="typing-area__icon">
+                    <div class="typing-area__icon__left">
+                        <i class="far fa-grin"></i>
+                        <i class="fas fa-paperclip"></i>
+                        <i class="far fa-image"></i>
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <input type="range" name="" id="" min="0.1" max="1" step="0.1" value="100" class="opacity-range">
+                </div>
+            </section>
+        </section>
+    </section>
+    <div class="for-mediaquery"></div>
+    <script src="basic.js"></script>
+    <script src="chat-room.js"></script>
+</body>
+</html>

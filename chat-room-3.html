@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KokoaTalk</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9e00e386e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="main chat-main">
+        <header class="chat-header">
+            <a href="index.html">
+                <i class="fas fa-times"></i>
+            </a>
+            <div class="chat-info">
+                <img src="images/eulsooT.jpeg" alt="">
+                <div class="chat-info__info">
+                    <b>을수쌤<span>(2)</span></b>
+                    <i class="fas fa-inbox"></i>
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+            <div class="chat-setting">
+                <i class="far fa-bell"></i>
+                <i class="fas fa-bars"></i>
+            </div>
+        </header>
+        <section class="contents chat-contents">
+            <section class="chat-contents__top">
+                <div class="timestamp">Monday, May 14, 2020</div>
+                <div class="my-chat-bubble chat-bubble">
+                    <div>
+                        <p>선생님 영상 보면서 계속 공부하고 있어요!</p>
+                        <span>1:40 PM</span>
+                    </div>
+                </div>
+                <div class="friend-chat-bubble chat-bubble">
+                    <img src="images/eulsooT.jpeg" alt="">
+                    <b>을수쌤</b>
+                    <div>
+                        <p>열심히 하세요, 열음씨^^</p>
+                        <span>1:56 PM</span>
+                    </div>
+                </div>
+                <div class="my-chat-bubble chat-bubble">
+                    <div>
+                        <p>감사합니다 선생님~</p>
+                        <span>1:58 PM</span>
+                    </div>
+                </div>
+            </section>
+            <section class="chat-contents__bottom">
+                <div class="typing-area__typing">
+                    <textarea placeholder="enter 키 또는 send 버튼을 누르면 내가 보낸 메세지, ctrl 키를 누르면 상대방이 보낸 메세지로 표시됩니다"></textarea>
+                    <input type="submit" value="send">
+                </div>
+                <div class="typing-area__icon">
+                    <div class="typing-area__icon__left">
+                        <i class="far fa-grin"></i>
+                        <i class="fas fa-paperclip"></i>
+                        <i class="far fa-image"></i>
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <input type="range" name="" id="" min="0.1" max="1" step="0.1" value="100" class="opacity-range">
+                </div>
+            </section>
+        </section>
+    </section>
+    <div class="for-mediaquery"></div>
+    <script src="basic.js"></script>
+    <script src="chat-room.js"></script>
+</body>
+</html>
